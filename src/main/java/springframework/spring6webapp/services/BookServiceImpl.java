@@ -1,9 +1,8 @@
-package kostas.springframework.spring6webapp.services;
+package springframework.spring6webapp.services;
 
-import kostas.springframework.spring6webapp.domain.Book;
-import kostas.springframework.spring6webapp.repositories.BookRepository;
+import springframework.spring6webapp.domain.Book;
+import springframework.spring6webapp.repositories.BookRepository;
 import org.springframework.stereotype.Service;
-
 @Service
 public class BookServiceImpl implements BookService {
 

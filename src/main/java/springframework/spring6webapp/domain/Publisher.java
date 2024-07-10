@@ -1,4 +1,4 @@
-package kostas.springframework.spring6webapp.domain;
+package springframework.spring6webapp.domain;
 
 import jakarta.persistence.*;
 

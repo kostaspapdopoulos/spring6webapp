@@ -1,9 +1,9 @@
-package kostas.springframework.spring6webapp.bootstrap;
+package springframework.spring6webapp.bootstrap;
 
-import kostas.springframework.spring6webapp.domain.Author;
-import kostas.springframework.spring6webapp.domain.Book;
-import kostas.springframework.spring6webapp.domain.Publisher;
-import kostas.springframework.spring6webapp.repositories.*;
+import springframework.spring6webapp.domain.Author;
+import springframework.spring6webapp.domain.Book;
+import springframework.spring6webapp.domain.Publisher;
+import springframework.spring6webapp.repositories.*;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
 
@@ -24,7 +24,7 @@ public class BootstrapData implements CommandLineRunner {
     @Override
     public void run(String... args) throws Exception {
         Author eric = new Author();
-        eric.setFistName("Eric");
+        eric.setFirstName("Eric");
         eric.setLastName("Evans");
 
         Book ddd = new Book();
@@ -35,7 +35,7 @@ public class BootstrapData implements CommandLineRunner {
         Book dddSaved = bookRepository.save(ddd);
 
         Author rod = new Author();
-        rod.setFistName("Rod");
+        rod.setFirstName("Rod");
         rod.setLastName("Johnson");
 
         Book noEJB = new Book();
@@ -52,7 +52,7 @@ public class BootstrapData implements CommandLineRunner {
 
 
         Publisher publisher = new Publisher();
-        publisher.setPublisherName("New Publisher");
+        publisher.setPublisherName("My Publisher");
         publisher.setAddress("123 Main");
         Publisher savedPublisher = publisherRepository .save(publisher);
 

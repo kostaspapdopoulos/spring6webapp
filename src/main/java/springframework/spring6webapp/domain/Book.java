@@ -1,6 +1,7 @@
-package kostas.springframework.spring6webapp.domain;
+package springframework.spring6webapp.domain;
 
 import jakarta.persistence.*;
+import springframework.spring6webapp.domain.Author;
 
 import java.util.HashSet;
 import java.util.Objects;

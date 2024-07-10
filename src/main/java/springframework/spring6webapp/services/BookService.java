@@ -1,6 +1,6 @@
-package kostas.springframework.spring6webapp.services;
+package springframework.spring6webapp.services;
 
-import kostas.springframework.spring6webapp.domain.Book;
+import springframework.spring6webapp.domain.Book;
 
 public interface BookService {
 
